@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Alexis\\\\node.exe',
+1 verbose cli   'D:\\Alexis\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'heapdump' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.26
+4 verbose node symlink D:\Alexis\\node.exe
+5 warn package.json node-connection-drop@0.1.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'heapdump', null ]
+8 verbose cache add name=undefined spec="heapdump" args=["heapdump",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'heapdump',
+9 verbose parsed url   path: 'heapdump',
+9 verbose parsed url   href: 'heapdump' }
+10 silly lockFile 113f0ae8-heapdump heapdump
+11 verbose lock heapdump D:\Users\skypemsg\AppData\Roaming\npm-cache\113f0ae8-heapdump.lock
+12 silly lockFile 113f0ae8-heapdump heapdump
+13 silly lockFile 113f0ae8-heapdump heapdump
+14 verbose addNamed [ 'heapdump', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile fb75fab9-heapdump heapdump@
+17 verbose lock heapdump@ D:\Users\skypemsg\AppData\Roaming\npm-cache\fb75fab9-heapdump.lock
+18 silly addNameRange { name: 'heapdump', range: '*', hasData: false }
+19 verbose url raw heapdump
+20 verbose url resolving [ 'https://registry.npmjs.org/', './heapdump' ]
+21 verbose url resolved https://registry.npmjs.org/heapdump
+22 info trying registry request attempt 1 at 20:27:49
+23 http GET https://registry.npmjs.org/heapdump
+24 http 200 https://registry.npmjs.org/heapdump
+25 silly registry.get cb [ 200,
+25 silly registry.get   { date: 'Mon, 05 May 2014 20:27:50 GMT',
+25 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+25 silly registry.get     etag: '"7VS0EV8YA2SCBN6Y1A7QPS2MK"',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     via: '1.1 varnish',
+25 silly registry.get     'cache-control': 'max-age=1',
+25 silly registry.get     'content-length': '14142',
+25 silly registry.get     'accept-ranges': 'bytes',
+25 silly registry.get     age: '29876',
+25 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-jfk1035-JFK',
+25 silly registry.get     'x-cache': 'HIT, MISS',
+25 silly registry.get     'x-cache-hits': '1, 0',
+25 silly registry.get     'x-timer': 'S1399291794.421398878,VS0,VS9,VE100,VE29875792',
+25 silly registry.get     vary: 'Accept',
+25 silly registry.get     'keep-alive': 'timeout=10, max=50',
+25 silly registry.get     connection: 'Keep-Alive' } ]
+26 silly addNameRange number 2 { name: 'heapdump', range: '*', hasData: true }
+27 silly addNameRange versions [ 'heapdump',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.2.4',
+27 silly addNameRange     '0.2.5',
+27 silly addNameRange     '0.2.6',
+27 silly addNameRange     '0.2.7' ] ]
+28 verbose addNamed [ 'heapdump', '0.2.7' ]
+29 verbose addNamed [ '0.2.7', '0.2.7' ]
+30 silly lockFile bee72e52-heapdump-0-2-7 heapdump@0.2.7
+31 verbose lock heapdump@0.2.7 D:\Users\skypemsg\AppData\Roaming\npm-cache\bee72e52-heapdump-0-2-7.lock
+32 silly lockFile 48c6d50d--org-heapdump-heapdump-0-2-7-tgz https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz
+33 verbose lock https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz D:\Users\skypemsg\AppData\Roaming\npm-cache\48c6d50d--org-heapdump-heapdump-0-2-7-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz',
+34 verbose addRemoteTarball   'e81f74be8123e8c83d8b1bd1ed34650bec37d0d6' ]
+35 info retry fetch attempt 1 at 20:27:50
+36 verbose fetch to= D:\Users\skypemsg\AppData\Local\Temp\2\npm-2764-sfMNIskY\1399321670257-0.22598322131671011\tmp.tgz
+37 http GET https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz
+38 http 200 https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz
+39 verbose tar unpack D:\Users\skypemsg\AppData\Local\Temp\2\npm-2764-sfMNIskY\1399321670257-0.22598322131671011\tmp.tgz
+40 silly lockFile f38b9b6b-npm-cache-heapdump-0-2-7-package tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package
+41 verbose lock tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package D:\Users\skypemsg\AppData\Roaming\npm-cache\f38b9b6b-npm-cache-heapdump-0-2-7-package.lock
+42 silly lockFile 853a229e-0257-0-22598322131671011-tmp-tgz tar://D:\Users\skypemsg\AppData\Local\Temp\2\npm-2764-sfMNIskY\1399321670257-0.22598322131671011\tmp.tgz
+43 verbose lock tar://D:\Users\skypemsg\AppData\Local\Temp\2\npm-2764-sfMNIskY\1399321670257-0.22598322131671011\tmp.tgz D:\Users\skypemsg\AppData\Roaming\npm-cache\853a229e-0257-0-22598322131671011-tmp-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm extractEntry binding.gyp
+50 silly gunzTarPerm extractEntry src/heapdump.cc
+51 silly gunzTarPerm extractEntry src/heapdump.h
+52 silly gunzTarPerm extractEntry src/platform-posix.cc
+53 silly gunzTarPerm extractEntry src/platform-win32.cc
+54 silly gunzTarPerm extractEntry test/test.js
+55 silly lockFile f38b9b6b-npm-cache-heapdump-0-2-7-package tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package
+56 silly lockFile f38b9b6b-npm-cache-heapdump-0-2-7-package tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package
+57 silly lockFile 853a229e-0257-0-22598322131671011-tmp-tgz tar://D:\Users\skypemsg\AppData\Local\Temp\2\npm-2764-sfMNIskY\1399321670257-0.22598322131671011\tmp.tgz
+58 silly lockFile 853a229e-0257-0-22598322131671011-tmp-tgz tar://D:\Users\skypemsg\AppData\Local\Temp\2\npm-2764-sfMNIskY\1399321670257-0.22598322131671011\tmp.tgz
+59 silly lockFile 48c6d50d--org-heapdump-heapdump-0-2-7-tgz https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz
+60 silly lockFile 48c6d50d--org-heapdump-heapdump-0-2-7-tgz https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz
+61 silly lockFile bee72e52-heapdump-0-2-7 heapdump@0.2.7
+62 silly lockFile bee72e52-heapdump-0-2-7 heapdump@0.2.7
+63 silly lockFile fb75fab9-heapdump heapdump@
+64 silly lockFile fb75fab9-heapdump heapdump@
+65 silly resolved [ { name: 'heapdump',
+65 silly resolved     main: './build/Release/heapdump',
+65 silly resolved     version: '0.2.7',
+65 silly resolved     description: 'Make a dump of the V8 heap for later inspection.',
+65 silly resolved     homepage: 'https://github.com/bnoordhuis/node-heapdump',
+65 silly resolved     author:
+65 silly resolved      { name: 'Ben Noordhuis',
+65 silly resolved        email: 'info@bnoordhuis.nl',
+65 silly resolved        url: 'http://bnoordhuis.nl/' },
+65 silly resolved     repository:
+65 silly resolved      { type: 'git',
+65 silly resolved        url: 'git://github.com/bnoordhuis/node-heapdump.git' },
+65 silly resolved     engines: { node: '>=0.10.0' },
+65 silly resolved     license: 'ISC',
+65 silly resolved     scripts: { install: 'node-gyp rebuild' },
+65 silly resolved     gypfile: true,
+65 silly resolved     readme: 'node-heapdump\n===\n\nMake a dump of the V8 heap for later inspection.\n\n### Install\n\n    npm install heapdump\n\nOr, if you are running node.js v0.6 or v0.8:\n\n    npm install heapdump@0.1.0\n\n### Build\n\n    node-gyp configure build\n\n### Usage\n\nLoad the add-on in your application:\n\n    var heapdump = require(\'heapdump\');\n\nThe module exports a single `writeSnapshot([filename])` function that writes\nout a snapshot.  `filename` defaults to `heapdump-<sec>.<usec>.heapsnapshot`\nwhen omitted.\n\n    heapdump.writeSnapshot(\'/var/local/\' + Date.now() + \'.heapsnapshot\');\n\nOn UNIX, it forks off a new process that writes out the snapshot in an\nasynchronous fashion.  (That is, the function does not block.)\n\nOn Windows, however, it returns only after the snapshot is fully written.\nIf the heap is large, that may take a while.\n\nOn UNIX platforms, you can force a snapshot by sending the node.js process\na SIGUSR2 signal:\n\n    $ kill -USR2 <pid>\n\nThe SIGUSR2 signal handler is enabled by default but you can disable it\nby setting `NODE_HEAPDUMP_OPTIONS=nosignal` in the environment:\n\n    $ env NODE_HEAPDUMP_OPTIONS=nosignal node script.js\n\n### Inspecting the snapshot\n\nOpen [Google Chrome](https://www.google.com/intl/en/chrome/browser/) and\npress F12 to open the developer toolbar.\n\nGo to the `Profiles` tab, right-click in the tab pane and select\n`Load profile...`.\n\nSelect the dump file and click `Open`.  You can now inspect the heap snapshot\nat your leisure.\n\nNote that Chrome will refuse to load the file unless it has the `.heapsnapshot`\nextension.\n\n### Caveats\n\nOn UNIX systems, the rule of thumb for creating a heap snapshot is that it\nrequires memory twice the size of the heap at the time of the snapshot.\nIf you end up with empty or truncated snapshot files, check the output of\n`dmesg`; you may have had a run-in with the system\'s OOM killer or a resource\nlimit enforcing policy, like `ulimit -u` (max user processes) or `ulimit -v`\n(max virtual memory size).\n',
+65 silly resolved     readmeFilename: 'README.md',
+65 silly resolved     bugs: { url: 'https://github.com/bnoordhuis/node-heapdump/issues' },
+65 silly resolved     _id: 'heapdump@0.2.7',
+65 silly resolved     _shasum: 'e81f74be8123e8c83d8b1bd1ed34650bec37d0d6',
+65 silly resolved     _from: 'heapdump@',
+65 silly resolved     _resolved: 'https://registry.npmjs.org/heapdump/-/heapdump-0.2.7.tgz' } ]
+66 info install heapdump@0.2.7 into D:\Alexis
+67 info installOne heapdump@0.2.7
+68 info D:\Alexis\node_modules\heapdump unbuild
+69 info preuninstall heapdump@0.2.7
+70 info uninstall heapdump@0.2.7
+71 verbose true,D:\Alexis\node_modules,D:\Alexis\node_modules unbuild heapdump@0.2.7
+72 info postuninstall heapdump@0.2.7
+73 verbose tar unpack D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package.tgz
+74 silly lockFile b8aa5cfd-r-D-Alexis-node-modules-heapdump tar://D:\Alexis\node_modules\heapdump
+75 verbose lock tar://D:\Alexis\node_modules\heapdump D:\Users\skypemsg\AppData\Roaming\npm-cache\b8aa5cfd-r-D-Alexis-node-modules-heapdump.lock
+76 silly lockFile 96736c82-cache-heapdump-0-2-7-package-tgz tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package.tgz
+77 verbose lock tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package.tgz D:\Users\skypemsg\AppData\Roaming\npm-cache\96736c82-cache-heapdump-0-2-7-package-tgz.lock
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry .npmignore
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm extractEntry LICENSE
+83 silly gunzTarPerm extractEntry binding.gyp
+84 silly gunzTarPerm extractEntry src/heapdump.cc
+85 silly gunzTarPerm extractEntry src/heapdump.h
+86 silly gunzTarPerm extractEntry src/platform-posix.cc
+87 silly gunzTarPerm extractEntry src/platform-win32.cc
+88 silly gunzTarPerm extractEntry test/test.js
+89 silly lockFile b8aa5cfd-r-D-Alexis-node-modules-heapdump tar://D:\Alexis\node_modules\heapdump
+90 silly lockFile b8aa5cfd-r-D-Alexis-node-modules-heapdump tar://D:\Alexis\node_modules\heapdump
+91 silly lockFile 96736c82-cache-heapdump-0-2-7-package-tgz tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package.tgz
+92 silly lockFile 96736c82-cache-heapdump-0-2-7-package-tgz tar://D:\Users\skypemsg\AppData\Roaming\npm-cache\heapdump\0.2.7\package.tgz
+93 info preinstall heapdump@0.2.7
+94 verbose readDependencies using package.json deps
+95 verbose readDependencies using package.json deps
+96 silly resolved []
+97 verbose about to build D:\Alexis\node_modules\heapdump
+98 info build D:\Alexis\node_modules\heapdump
+99 verbose linkStuff [ false, false, false, 'D:\\Alexis\\node_modules' ]
+100 info linkStuff heapdump@0.2.7
+101 verbose linkBins heapdump@0.2.7
+102 verbose linkMans heapdump@0.2.7
+103 verbose rebuildBundles heapdump@0.2.7
+104 info install heapdump@0.2.7
+105 verbose unsafe-perm in lifecycle true
+106 info heapdump@0.2.7 Failed to exec install script
+107 info D:\Alexis\node_modules\heapdump unbuild
+108 info preuninstall heapdump@0.2.7
+109 info uninstall heapdump@0.2.7
+110 verbose true,D:\Alexis\node_modules,D:\Alexis\node_modules unbuild heapdump@0.2.7
+111 info postuninstall heapdump@0.2.7
+112 error heapdump@0.2.7 install: `node-gyp rebuild`
+112 error Exit status 1
+113 error Failed at the heapdump@0.2.7 install script.
+113 error This is most likely a problem with the heapdump package,
+113 error not with npm itself.
+113 error Tell the author that this fails on your system:
+113 error     node-gyp rebuild
+113 error You can get their info via:
+113 error     npm owner ls heapdump
+113 error There is likely additional logging output above.
+114 error System Windows_NT 6.2.9200
+115 error command "D:\\Alexis\\\\node.exe" "D:\\Alexis\\node_modules\\npm\\bin\\npm-cli.js" "install" "heapdump"
+116 error cwd D:\Alexis
+117 error node -v v0.10.26
+118 error npm -v 1.4.9
+119 error code ELIFECYCLE
+120 verbose exit [ 1, true ]
