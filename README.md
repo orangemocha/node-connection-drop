@@ -12,9 +12,6 @@ Server.js is a plain https node.js based server that runs socket.io without any 
 
 ## Usage ##
 
-### Installing ###
-'npm install'
-
 ### Running the test ###
 
 Run server (by default runs on port 443):
